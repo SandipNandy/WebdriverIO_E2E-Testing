@@ -1,7 +1,7 @@
 exports.config = {
     //
     // ====================
-    // Runner Configuration
+    // Runner Configuration for tests
     // ====================
     //
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or

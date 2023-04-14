@@ -2,6 +2,7 @@
 const person =require('./basics2')
 
 console.log(person.location)
+
 person.fullName()
 let greet ="mrning"
 

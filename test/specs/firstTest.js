@@ -4,7 +4,8 @@ describe('Ecommerce Application',async()=>
 
     it('Login Fail page title-Smoke',async()=>
 {
-//webdriverio Async  (Sync)
+        
+//webdriverio Async  (Sync) for webdriverio
 
      await   browser.url("/loginpagePractise/")
     console.log(await browser.getTitle())

@@ -1,6 +1,5 @@
 class Shop
 {
-
 get checkout()
 {
     return $("*=Checkout")

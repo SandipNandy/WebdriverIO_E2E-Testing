@@ -1,11 +1,8 @@
 describe('Windows and Frames Miscellanous',async()=>
-{
+         {
    xit('Parent and Child windows switch',async()=>
-
    {
-      
         await  browser.url("/AutomationPractice/")
-      
         await $(".blinkingText").click()
        const handles = await browser.getWindowHandles()// 2 windows -
        await browser.switchToWindow(handles[1])

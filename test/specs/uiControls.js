@@ -2,10 +2,8 @@ const expectchai = require('chai').expect
 
 describe('UI Controls Test Suite',async()=>
 {
-
 xit('UI Controls sanity',async()=>
 {
-    
     await browser.url("/loginpagePractise/#")
     await $("input[name='username']").setValue("SNacademy")
     const password = $("//input[@type='password']")

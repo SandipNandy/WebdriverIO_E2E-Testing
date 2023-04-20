@@ -1,12 +1,8 @@
 describe('Ecommerce Application',async()=>
 {
-
-
     it('Login Fail page title-Smoke',async()=>
-{
-        
+{ 
 //webdriverio Async  (Sync) for webdriverio
-
      await   browser.url("/loginpagePractise/")
     console.log(await browser.getTitle())
     await expect(browser).toHaveTitleContaining("SN Academy")
@@ -35,8 +31,6 @@ it('Login Fail page title Smoke',async()=>
     await expect(browser).toHaveTitleContaining("SNAcademy")
 
  })
-
-
 it('Login Success page title',async()=>
 {
     browser.url("/loginpagePractise/")

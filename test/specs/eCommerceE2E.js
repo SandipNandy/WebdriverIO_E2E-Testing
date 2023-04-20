@@ -1,11 +1,8 @@
 const expectchai = require('chai').expect
 describe('Ecommerce Application',async ()=>
 {
-
 it('End to End Test',async ()=>
-
 {
-    
     const products = ['iphone X','Blackberry']
     await browser.url("http://automationpractice.com/")
     await $("input[name='username']").setValue("sandy")

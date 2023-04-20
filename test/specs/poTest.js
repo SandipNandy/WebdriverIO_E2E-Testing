@@ -1,5 +1,3 @@
-
-
 const loginPage =require('../pageobjects/loginPage')
 const shopPage =require('../pageobjects/shop')
 const reviewPage =require('../pageobjects/reviewpage')
@@ -33,8 +31,6 @@ xit('Login Fail page',async()=>
 
 })
 })
-
-
 e2eCredentials.forEach( ({products})  =>{
 it('End to End Test',async ()=>
 

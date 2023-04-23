@@ -12,8 +12,4 @@ mochaOpts: {
     timeout: 60000,
     grep:"sanity"
 },
-
-
-
-
 })

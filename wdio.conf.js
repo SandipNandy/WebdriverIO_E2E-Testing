@@ -25,7 +25,7 @@ exports.config = {
         './test/specs/**/*.js',
        // 'test/specs/poTest.js'
     ],
-    // Patterns to exclude.
+    // Patterns to exclude to wido
     exclude: [
         // 'path/to/excluded/files'
         'test/specs/eCommerceE2E.js'

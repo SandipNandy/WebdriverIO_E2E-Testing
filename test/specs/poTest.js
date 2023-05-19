@@ -9,9 +9,8 @@ let e2eCredentials =JSON.parse(fs.readFileSync('test/testData/e2eTest.json'))
 
 describe('Ecommerce Application',async()=>
 {
-
     credentials.forEach(  ({username,password})  =>{
-xit('Login Fail page',async()=>
+it('Login Fail page',async()=>
 {
 //webdriverio Async  (Sync)
 

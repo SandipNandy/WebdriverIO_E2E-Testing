@@ -1,6 +1,6 @@
 describe('Windows and Frames Miscellanous',async()=>
          {
-   xit('Parent and Child windows switch',async()=>
+   it('Parent and Child windows switch',async()=>
    {
         await  browser.url("/AutomationPractice/")
         await $(".blinkingText").click()

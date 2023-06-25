@@ -6,6 +6,8 @@ get checkout()
 }
 get cards()
 { 
+
+    
     return $$("div[class='card h-100']")
 }
 

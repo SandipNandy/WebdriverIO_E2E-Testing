@@ -2,7 +2,8 @@ const expectchai = require('chai').expect
 describe('Functional Testing on  Application',()=>
 {
    it('Scrolling and Mouse hover',async()=>
-       {
+    {
+       
     await browser.url("/AutomationPractice/")
     await $("#mousehover").scrollIntoView()
     await browser.pause(3000)

@@ -3,20 +3,13 @@ class Pet extends Person
 
 {
   get location()
-  {
-    
+  { 
     return "RedCross"
   }
-
-
-  
-   constructor(firstName,lastName)
+constructor(firstName,lastName)
     {
-      
-       super(firstName,lastName)
+     super(firstName,lastName)
     }
-
-
 }
 let name= new Pet("Tim","joseph")
 console.log(name.location)

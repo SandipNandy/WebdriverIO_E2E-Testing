@@ -1,19 +1,16 @@
 const loginPage =require('../pageobjects/loginPage')
-
 const shopPage =require('../pageobjects/shop')
-
 const reviewPage =require('../pageobjects/reviewpage')
-
 const expectchai = require('chai').expect
 const fs =require('fs')
-
 let credentials =JSON.parse(fs.readFileSync('test/testData/LoginTest.json'))
 let e2eCredentials =JSON.parse(fs.readFileSync('test/testData/e2eTest.json'))
 
 describe('Ecommerce Application',async()=>
 {
     credentials.forEach(  ({username,password})  =>{
-it('Login Fail page',async()=>
+
+        it('Login Fail page',async()=>
 {
 //webdriverio Async  (Sync)
 

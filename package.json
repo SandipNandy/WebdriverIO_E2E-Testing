@@ -1,5 +1,4 @@
-{
-    "name": "webdriverio-tests",
+{"name": "webdriverio-tests",
     "version": "0.1.0",
     "private": true,
     "scripts": { 

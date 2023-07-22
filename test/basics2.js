@@ -1,5 +1,4 @@
 module.exports =class Person
-
 {
   get location()
   {
@@ -7,19 +6,13 @@ module.exports =class Person
   }
  constructor(firstName,lastName)
     {
-      
         this.firstName = firstName
         this.lastName = lastName
     }
-
     fullName()
     {
          console.log(this.firstName+this.lastName)
     }
-
-   
-
-
 }
 // let name= new Person("Tim","joseph")
 // // console.log(name.location)

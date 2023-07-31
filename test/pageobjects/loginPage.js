@@ -2,10 +2,13 @@ class LoginPage
 {   
 get userName()
   {
+    
     return $("input[name='username']")
 } 
+  
 get password()
 {
+  
     return $("//input[@type='password']")
 }
 get alert()

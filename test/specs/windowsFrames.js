@@ -9,6 +9,7 @@ describe('Windows and Frames Miscellanous',async()=>
         await $(".blinkingText").click()
             
        const handles = await browser.getWindowHandles()// 2 windows -
+            
        await browser.switchToWindow(handles[1])
         console.log(await $("h1").getText())
         console.log(await browser.getTitle())//http://automationpractice.com/

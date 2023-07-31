@@ -7,7 +7,9 @@ describe('Ecommerce Application',async()=>
 
     //webdriverio Async  (Sync) for webdriverio
      await   browser.url("/loginpagePractise/")
+   
     console.log(await browser.getTitle())
+   
     await expect(browser).toHaveTitleContaining("SN Academy")
     //Css Selector, Xpath
     await $("input[name='username']").setValue("snacademy")

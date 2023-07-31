@@ -7,7 +7,9 @@ describe('Ecommerce Application',async ()=>
     it('End to End Test',async ()=>
 {
     const products = ['iphone X','Blackberry']
+    
     await browser.url("http://automationpractice.com/")
+    
     await $("input[name='username']").setValue("sandy")
     const password = $("//input[@type='password']")
     await password.setValue("learning")

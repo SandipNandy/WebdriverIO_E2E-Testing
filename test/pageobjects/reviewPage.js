@@ -10,7 +10,6 @@ get totalPrice()
 }
 async sumOfProducts()
  { 
-     
     const sumOfProducts = (await Promise.all(await this.productPrices.map(async (productPrice)=> parseInt((await productPrice.getText()).split(".")[1].trim()))))
     .reduce((acc,price)=>acc+price,0)//0+ 13000 =13000    50000+13000 =
     console.log(sumOfProducts)

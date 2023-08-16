@@ -1,16 +1,12 @@
 const expectchai = require('chai').expect
 describe('UI Controls Test Suite',async()=>
-{
-      
+{ 
    it('UI Controls sanity',async()=>
 {
     
-    await browser.url("/loginpagePractise/#")
-      
-    await $("input[name='username']").setValue("SNacademy")
-      
-    const password = $("//input[@type='password']")
-      
+    await browser.url("/loginpagePractise/#")   
+    await $("input[name='username']").setValue("SNacademy")  
+    const password = $("//input[@type='password']") 
     await password.setValue("learningNOW")
     //what if multiple elements $$
     const radioButtons = await $$(".customradio")

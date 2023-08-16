@@ -40,8 +40,6 @@ describe('Ecommerce Application',async ()=>
    await $("=India").click()
     await $("input[type='submit']").click()
     await expect($(".alert-success")).toHaveTextContaining("Success")
-
-
 })
 })
 

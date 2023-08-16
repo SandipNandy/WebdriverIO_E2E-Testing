@@ -2,10 +2,8 @@ const Person = require('./basics2');
 
 class Pet extends Person
 {
-  
   get location()
   { 
-    
     return "RedCross"
   }
 constructor(firstName,lastName)

@@ -15,10 +15,6 @@ return a+b
 console.log(add(2,3))
 console.log(greet)
 //console.log(greeting)
-
-
-
-
 let b=function (a,c)
 {
 return a+c

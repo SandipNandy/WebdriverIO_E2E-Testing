@@ -4,10 +4,9 @@ person.fullName()
 let greet ="mrning"
     if( 1==1)
     {
-       let  greet = "evening"  
+        let  greet = "evening"  
     }
     greet = "hello"
-
 function add(a,b)
 {
   var greet ="mrning"

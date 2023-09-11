@@ -10,7 +10,6 @@ let greet ="mrning"
 function add(a,b)
 {
   var greet ="mrning"
-
 return a+b
 }
 console.log(add(2,3))

@@ -11,7 +11,7 @@ module.exports =class Person
     }
     fullName()
     {
-         console.log(this.firstName+this.lastName)
+      console.log(this.firstName+this.lastName)
     }
 }
 // let name= new Person("Tim","joseph")

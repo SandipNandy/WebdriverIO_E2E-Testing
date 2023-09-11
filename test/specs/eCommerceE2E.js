@@ -11,6 +11,7 @@ describe('Ecommerce Application',async ()=>
     await $("input[name='username']").setValue("sandy")
     
     const password = $("//input[@type='password']")
+    
     await password.setValue("learning")
     await $("#signInBtn").click()
     //wait until checkout button is displayed

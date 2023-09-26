@@ -14,6 +14,7 @@ describe('UI Controls Test Suite',async()=>
    
     //what if multiple elements $$
     const radioButtons = await $$(".customradio")
+   
     const userDropdown = radioButtons[1]
     await userDropdown.$("span").click() //chaining locators-
     const modal =await $(".modal-body")

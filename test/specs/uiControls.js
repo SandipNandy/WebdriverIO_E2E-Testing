@@ -16,6 +16,7 @@ describe('UI Controls Test Suite',async()=>
     const radioButtons = await $$(".customradio")
    
     const userDropdown = radioButtons[1]
+   
     await userDropdown.$("span").click() //chaining locators-
     const modal =await $(".modal-body")
     await modal.waitForDisplayed()

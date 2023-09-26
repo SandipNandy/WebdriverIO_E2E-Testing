@@ -5,7 +5,6 @@ const reviewPage =require('../pageobjects/reviewpage')
 const expectchai = require('chai').expect
 const fs =require('fs')
 let credentials =JSON.parse(fs.readFileSync('test/testData/LoginTest.json'))
-
 let e2eCredentials =JSON.parse(fs.readFileSync('test/testData/e2eTest.json'))
 
 describe('Ecommerce Application',async()=>

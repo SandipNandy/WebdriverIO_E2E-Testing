@@ -11,6 +11,7 @@ describe('UI Controls Test Suite',async()=>
     const password = $("//input[@type='password']") 
    
     await password.setValue("learningNOW")
+   
     //what if multiple elements $$
     const radioButtons = await $$(".customradio")
     const userDropdown = radioButtons[1]

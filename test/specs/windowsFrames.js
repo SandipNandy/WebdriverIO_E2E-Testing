@@ -12,7 +12,8 @@ describe('Windows and Frames Miscellanous',async()=>
         console.log(await $("h1").getText())
             
         console.log(await browser.getTitle())//http://automationpractice.com/
-       await browser.closeWindow()
+       
+            await browser.closeWindow()
         await browser.switchToWindow(handles[0])
        console.log(await browser.getTitle())//LoginPage Practise | http://automationpractice.com/
        //*********************************** */

@@ -1,5 +1,6 @@
 class LoginPage
 {   
+  
 get userName()
   { 
     return $("input[name='username']")

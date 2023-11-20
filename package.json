@@ -12,7 +12,6 @@
         "GenerateReport": "allure generate allure-results --clean && allure open"
     },
     "devDependencies": {
-        
         "@wdio/cli": "^7.19.0",
         "@wdio/local-runner": "^7.19.0",
         "@wdio/mocha-framework": "^7.19.0",

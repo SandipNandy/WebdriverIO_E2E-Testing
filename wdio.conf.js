@@ -33,6 +33,7 @@ exports.config = {
     // Patterns to exclude to wido
     exclude: [
         // 'path/to/excluded/files'
+        
         'test/specs/eCommerceE2E.js'
     ],
     //

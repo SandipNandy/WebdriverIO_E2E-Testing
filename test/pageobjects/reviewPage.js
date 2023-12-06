@@ -5,7 +5,7 @@ get productPrices()
     return $$("//tr/td[4]/strong")
 }
 get totalPrice()
-{ 
+{
     return $("h3 strong")
 }
 async sumOfProducts()

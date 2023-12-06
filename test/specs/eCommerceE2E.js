@@ -22,6 +22,7 @@ describe('Ecommerce Application',async ()=>
     await link.waitForExist()  //link Text
     
     const cards = await $$("div[class='card h-100']")
+    
     for( let i =0; i< await cards.length;i++)
     {
         const card = await cards[i].$("div h4 a")

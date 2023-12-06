@@ -18,6 +18,7 @@ describe('Ecommerce Application',async ()=>
     //wait until checkout button is displayed
     
     const link = await $("*=Checkout")
+    
     await link.waitForExist()  //link Text
     const cards = await $$("div[class='card h-100']")
     for( let i =0; i< await cards.length;i++)

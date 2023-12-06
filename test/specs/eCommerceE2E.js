@@ -26,6 +26,7 @@ describe('Ecommerce Application',async ()=>
     for( let i =0; i< await cards.length;i++)
     {
         const card = await cards[i].$("div h4 a")
+        
        if(products.includes(await card.getText()))
        {
         await cards[i].$(".card-footer button").click()

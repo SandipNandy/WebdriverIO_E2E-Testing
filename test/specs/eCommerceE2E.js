@@ -14,6 +14,7 @@ describe('Ecommerce Application',async ()=>
     await password.setValue("learning")
     
     await $("#signInBtn").click()
+    
     //wait until checkout button is displayed
     const link = await $("*=Checkout")
     await link.waitForExist()  //link Text

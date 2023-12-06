@@ -21,6 +21,7 @@ describe('Ecommerce Application',async()=>
     await password.setValue("learning")
     
     await $("#signInBtn").click()
+    
     await console.log(await $(".alert-danger").getText())
    await browser.waitUntil(async()=>await $("#signInBtn").getAttribute('value') === 'Sign In',
     {

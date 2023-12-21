@@ -9,6 +9,7 @@
         "CreditCardTests": "npx wdio run wdio.conf.js -- suite creditCard",
         
         "QARegression": "npx wdio run wdio.conf.js",
+        
         "UATRegression": "npx wdio run wdio.uat.conf.js",
         "debitCardTests": "npx wdio run wdio.conf.js -- suite debitCard",
         "GenerateReport": "allure generate allure-results --clean && allure open"

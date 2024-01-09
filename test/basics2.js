@@ -9,6 +9,7 @@ module.exports =class Person
     {
       
         this.firstName = firstName
+      
         this.lastName = lastName
     }
     fullName()

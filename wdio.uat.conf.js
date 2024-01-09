@@ -14,6 +14,7 @@ mochaOpts: {
     ui: 'bdd',
  
     timeout: 60000,
+ 
     grep:"sanity"
 },
 })

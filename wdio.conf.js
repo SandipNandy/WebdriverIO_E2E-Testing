@@ -35,6 +35,7 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
         
+        
         'test/specs/eCommerceE2E.js'
     ],
     //

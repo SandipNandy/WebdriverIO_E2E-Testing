@@ -20,7 +20,6 @@ let b=function (a,c)
 return a+c
 }
 console.log(b(2,3))
-
 let sum= (a,c)=>a+c;
 console.log(sum(2,3))
 

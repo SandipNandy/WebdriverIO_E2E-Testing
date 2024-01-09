@@ -28,6 +28,7 @@ exports.config = {
     },
     specs: [
         './test/specs/**/*.js',
+        
        // 'test/specs/poTest.js'
     ],
     // Patterns to exclude to wido

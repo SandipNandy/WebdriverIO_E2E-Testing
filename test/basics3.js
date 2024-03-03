@@ -1,4 +1,5 @@
 const Person = require('./basics2');
+
 class Pet extends Person
 {
   get location()

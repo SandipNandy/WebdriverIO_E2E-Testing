@@ -14,5 +14,6 @@ constructor(firstName,lastName)
     }
 }
 let name= new Pet("Tim","joseph")
+
 console.log(name.location)
 name.fullName()

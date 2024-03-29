@@ -11,8 +11,6 @@ exports.config = {
     // Specify Test Files
     // ==================
     // Define which test specs should run. The pattern is relative to the directory
-
-    
     // from which `wdio` was called. Notice that, if you are calling `wdio` from an
     
     

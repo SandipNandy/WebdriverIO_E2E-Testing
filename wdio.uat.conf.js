@@ -5,7 +5,6 @@ const wdioConf = require('./wdio.conf.js')
 exports.config = merge(wdioConf.config, {
 baseUrl : 'http://automationpractice.com/',
 waitforTimeout: 5000,
- 
 mochaOpts: {
  
     ui: 'bdd',

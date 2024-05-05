@@ -8,7 +8,6 @@ waitforTimeout: 5000,
 mochaOpts: {
     ui: 'bdd',
     timeout: 60000,
- 
     grep:"sanity"
 },
 })

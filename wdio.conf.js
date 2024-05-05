@@ -18,7 +18,6 @@ exports.config = {
 
     suites: {
       debitCard:['test/specs/uiControls.js','test/specs/windowsFrames.js'],
-        
       creditCard:['test/specs/eCommerceE2E.js']
     },
     specs: [

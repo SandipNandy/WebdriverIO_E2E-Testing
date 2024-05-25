@@ -9,7 +9,6 @@ describe('Functional Testing on  Application',()=>
     await $("#mousehover").moveTo()
        
     await browser.pause(3000)
-       
     await $("=Top").click()
        
     await browser.url("http://only-testing-blog.blogspot.com/2014/09/selectable.html")

@@ -10,7 +10,6 @@ describe('Ecommerce Application',async()=>
     await expect(browser).toHaveTitleContaining("SN Academy")
     //Css Selector, Xpath
     await $("input[name='username']").setValue("snacademy")
-    
     await $("#username").setValue("secondCSS")
     
     const password = $("//input[@type='password']")

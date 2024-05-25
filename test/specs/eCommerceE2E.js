@@ -7,7 +7,6 @@ describe('Ecommerce Application',async ()=>
     await browser.url("http://automationpractice.com/")
     await $("input[name='username']").setValue("sandy")
     const password = $("//input[@type='password']")
-    
     await password.setValue("learning")
     
     await $("#signInBtn").click()

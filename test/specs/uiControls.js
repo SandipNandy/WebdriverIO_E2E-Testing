@@ -6,7 +6,6 @@ describe('UI Controls Test Suite',async()=>
     
     await browser.url("/loginpagePractise/#")   
     await $("input[name='username']").setValue("SNacademy")  
-   
     const password = $("//input[@type='password']") 
    
     await password.setValue("learningNOW")

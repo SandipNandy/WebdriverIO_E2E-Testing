@@ -11,7 +11,6 @@ describe('Ecommerce Application',async()=>
     //Css Selector, Xpath
     await $("input[name='username']").setValue("snacademy")
     await $("#username").setValue("secondCSS")
-    
     const password = $("//input[@type='password']")
     
     await password.setValue("learning")

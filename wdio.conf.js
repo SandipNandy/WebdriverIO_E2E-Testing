@@ -33,6 +33,7 @@ exports.config = {
         
         
         'test/specs/eCommerceE2E.js'
+        
     ],
     //
     // ============

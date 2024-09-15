@@ -22,6 +22,7 @@ exports.config = {
       creditCard:['test/specs/eCommerceE2E.js']
     },
     specs: [
+        
         './test/specs/**/*.js',
         
        // 'test/specs/poTest.js'

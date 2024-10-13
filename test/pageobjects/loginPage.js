@@ -13,6 +13,7 @@ get password()
 }
 get alert()
   {
+    
    return $(".alert-danger")
 }
 get signIn()

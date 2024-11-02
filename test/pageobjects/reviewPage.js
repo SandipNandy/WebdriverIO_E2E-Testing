@@ -1,6 +1,5 @@
 class ReviewPage
-{   
-    
+{     
 get productPrices()
 {
     

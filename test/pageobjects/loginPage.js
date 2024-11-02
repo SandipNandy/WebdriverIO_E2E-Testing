@@ -1,6 +1,5 @@
 class LoginPage
 {   
-  
 get userName()
   { 
     

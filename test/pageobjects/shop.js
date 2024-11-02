@@ -10,7 +10,6 @@ get cards()
 }
  async addProductToCart(products)
  {
-      
     for( let i =0; i< await this.cards.length;i++)
     {
        

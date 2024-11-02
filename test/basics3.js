@@ -5,6 +5,7 @@ class Pet extends Person
   
   get location()
   { 
+    
     return "RedCross"
   }
 constructor(firstName,lastName)

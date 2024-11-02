@@ -3,6 +3,7 @@ module.exports =class Person
   
   get location()
   {
+    
     return "canada"
   }
  constructor(firstName,lastName)

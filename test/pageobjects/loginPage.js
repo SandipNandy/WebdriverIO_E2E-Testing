@@ -19,6 +19,7 @@ get alert()
     
    return $(".alert-danger")
 }
+  
 get signIn()
 {
     return $("#signInBtn")

@@ -3,6 +3,7 @@ class Shop
      
 get checkout()
 {
+     
      return $("*=Checkout")
 }
 get cards()

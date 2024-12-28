@@ -22,6 +22,7 @@ get alert()
   
 get signIn()
 {
+  
     return $("#signInBtn")
 }
 get textInfo()

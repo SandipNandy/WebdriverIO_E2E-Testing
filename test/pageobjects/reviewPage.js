@@ -1,6 +1,7 @@
 
 class ReviewPage
-{     
+{    
+    
 get productPrices()
 {
     return $$("//tr/td[4]/strong")

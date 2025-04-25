@@ -8,7 +8,6 @@ exports.config = {
     // on a remote machine).
     
     runner: 'local',
-    
     // ==================
     // Specify Test Files
     // ==================

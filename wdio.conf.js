@@ -1,6 +1,5 @@
 exports.config = {
     //
-    
     // ====================
     // Runner Configuration for tests
     

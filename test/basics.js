@@ -11,7 +11,6 @@ let greet ="mrning"
         let  greet = "evening"  
     }
     greet = "hello"
-
 function add(a,b)
 {
   var greet ="mrning"

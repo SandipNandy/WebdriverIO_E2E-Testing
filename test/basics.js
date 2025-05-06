@@ -7,7 +7,6 @@ person.fullName()
 let greet ="mrning"
 
     if( 1==1)
-        
     {
         let  greet = "evening"  
     }

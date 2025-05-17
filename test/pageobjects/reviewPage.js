@@ -18,6 +18,7 @@ async sumOfProducts()
     .reduce((acc,price)=>acc+price,0);
      //0+ 13000 =13000    50000+13000 =
     console.log(sumOfProducts)
+     
  }
  async totalFormattedPrice()
  {

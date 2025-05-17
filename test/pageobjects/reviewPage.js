@@ -22,6 +22,7 @@ async sumOfProducts()
  }
  async totalFormattedPrice()
  {
+     
     const TotalValue = await this.totalPrice.getText()
     const totalIntValue = parseInt(TotalValue.split(".")[1].trim())
  }

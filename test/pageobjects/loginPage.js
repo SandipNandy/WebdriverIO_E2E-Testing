@@ -9,7 +9,6 @@ get userName()
 get password()
   
 {
-  
     return $("//input[@type='password']")
 }
 get alert()

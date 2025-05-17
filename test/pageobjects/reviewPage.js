@@ -9,7 +9,6 @@ get productPrices()
     
 get totalPrice()
 {
-    
     return $("h3 strong")
 }
     

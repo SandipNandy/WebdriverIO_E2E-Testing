@@ -13,8 +13,7 @@ get cards()
  async addProductToCart(products)
  {
     for( let i =0; i< await this.cards.length;i++)
-    {
-         const card = await this.cards[i].$("div h4 a")
+    { const card = await this.cards[i].$("div h4 a")
        if(products.includes(await card.getText()))
        {
             await this.cards[i].$(".card-footer button").click()

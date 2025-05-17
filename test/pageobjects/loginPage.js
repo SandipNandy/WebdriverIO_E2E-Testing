@@ -12,7 +12,6 @@ get password()
     return $("//input[@type='password']")
 }
 get alert()
-  
   {
    return $(".alert-danger")
 }

@@ -6,6 +6,7 @@ describe('Functional Testing on  Application',()=>
     await browser.url("/AutomationPractice/")
        
     await $("#mousehover").scrollIntoView()
+       
     await browser.pause(3000)
     await $("#mousehover").moveTo()
        

@@ -8,6 +8,7 @@ describe('Functional Testing on  Application',()=>
     await $("#mousehover").scrollIntoView()
        
     await browser.pause(3000)
+       
     await $("#mousehover").moveTo()
        
     await browser.pause(3000)

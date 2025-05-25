@@ -18,6 +18,7 @@ describe('Functional Testing on  Application',()=>
     await browser.url("http://only-testing-blog.blogspot.com/2014/09/selectable.html")
        
     await $("button").doubleClick()
+       
     console.log(await browser.isAlertOpen())
     expectchai(await browser.isAlertOpen()).to.be.true
     expectchai(await browser.getAlertText()).to.equal("You double clicked me.. Thank You..")

@@ -12,7 +12,6 @@ describe('Ecommerce Application',async()=>
     await $("input[name='username']").setValue("snacademy")
     await $("#username").setValue("secondCSS")
     const password = $("//input[@type='password']")
-    
     await password.setValue("learning")
     
     await $("#signInBtn").click()

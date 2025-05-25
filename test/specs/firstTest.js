@@ -20,6 +20,7 @@ describe('Ecommerce Application',async()=>
         timeoutMsg: 'Error message is not showing up'
     })
     await console.log(await $(".alert-danger").getText())
+    
     await expect($("p")).toHaveTextContaining("username is snacademy and Password is learningnow")
 
 })

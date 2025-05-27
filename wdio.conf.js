@@ -15,7 +15,6 @@ exports.config = {
     // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
     // directory is where your package.json resides, so `wdio` will be called from there.
     // QA Env-> UAT -> Production 
-
     suites: {
       debitCard:['test/specs/uiControls.js','test/specs/windowsFrames.js'],
       creditCard:['test/specs/eCommerceE2E.js']
